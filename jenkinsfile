@@ -10,7 +10,7 @@ pipeline{
 
                 script{
 
-                    git branch: 'main', url: 'https://github.com/Ooladipupo/mrdevops_java-app.git'
+                    git branch: 'main', url: 'https://github.com/Ooladipupo/jenkins_file_folder.git'
                 }
             }
         }
