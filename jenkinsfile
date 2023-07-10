@@ -8,23 +8,5 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Ooladipupo/jenkins_file_folder.git'
             }
         }
-        
-        stage('Build') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        
-        stage('Test') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        
-        stage('Deploy') {
-            steps {
-                echo 'Hello World'
-            }
-        }
     }
 }
